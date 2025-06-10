@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    font-size: 100px !important;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: orangered;
+}
+
+h3{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: orangered;
+}
+
+h4{
+    font-size: 50px;
+}
+
+.titulo{
+    background-color: rgb(8, 90, 8);
+    color: rgb(192, 192, 6);
+}
+
+.titulo1{
+    background-color: rgb(1, 1, 58);
+    color: orangered;
+}
+
+.titulo2{
+    background-color: rgb(116, 66, 30);
+    color: rgb(67, 101, 204);
+}
+
+header{
+    background-image: url(../images/seven-deadly-sins_b78x.1280.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    color: black;
+    font-size: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding-right: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover{
+    color: white;
+    font-size: 35px ;
+}
+
+.productos{
+    background-image: url(../images/dbzfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.productos-2{
+    background-image: url(../images/nfondo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+}
+
+.productos-3{
+    background-image: url(../images/opfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 90, 8);
+    font-size: 40px;
+    color: black;
+}
+
+ul {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.grid-productos{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.grid-productos div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cuadro1{
+    grid-row: span 2;
+    width: 400px;
+}
+
+.cuadro1:hover{
+    width: 600px;
+    transition: width 0.5s ease;
+}
+
+.cuadro3{
+    grid-row: span 2;
+    width: 400px;
+}
+
+.cuadro3:hover{
+    width: 600px;
+    transition: width 0.5s ease;
+}
+
+.cuadro4{
+    grid-row: span 2;
+}
+
+.tienda div{
+    font-size: 40px;
+}
+.tienda img{
+    width: 400px;
+    height: 500px;
+    margin: 80px;
+}
+
+.tienda img:hover{
+    width: 600px;
+    height: 700px;
+    transition: width 0.5s ease;
+}
+
+.tienda{
+    border: 2px solid black;
+    margin: 95px 95px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid-tienda{
+    margin: 80px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    font-size: 30px;
+}
+
+.grid-tienda div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cuadro-1{
+    grid-row: span 2;
+}
+
+.gap-2{
+    margin: 50px !important;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+.contacto{
+    background-color: rgb(8, 90, 8);
+    color: rgb(192, 192, 6);
+}
+
+.form-control {
+    font-size: 30px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width:350px)and(max-width:500px){
+    .productos, .productos-2, .productos-3{
+        width: 100px;
+    }
+    .tienda{
+        border: transparent;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:501px)and(max-width:960px){
+    .productos, .productos-2, .productos-3{
+        width: 100px;
+    }
+    .tienda{
+        border: transparent;
+    }
+    footer{
+        width: 100%;
+    }
+}
