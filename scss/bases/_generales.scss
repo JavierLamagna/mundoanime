@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.gap-2 {
+    margin: 50px !important;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
